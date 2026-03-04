@@ -19,10 +19,16 @@ from .prefix_code_tree import (
     PrefixCodeTree as PrefixCodeTree,
     TreeNode as TreeNode,
 )
+from .shannon_fano_elias import (
+    ShannonFanoEliasBinaryCoder as ShannonFanoEliasBinaryCoder,
+    BinaryAlphabet as BinaryAlphabet,
+)
 
 __all__ = [
     "IdentityEncoder",
     "PrefixEncoderDecoder",
     "PrefixCodeTree",
     "TreeNode",
+    "ShannonFanoEliasBinaryCoder",
+    "BinaryAlphabet",
 ]

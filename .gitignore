@@ -131,3 +131,4 @@ poetry.lock
 docs/build/*
 docs/source/api/*
 docs/source/examples/*
+uv.lock
